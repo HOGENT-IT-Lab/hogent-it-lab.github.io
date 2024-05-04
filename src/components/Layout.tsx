@@ -29,6 +29,9 @@ function Navbar() {
 				<Link href="/contact" type="button">
 					{t('contact')}
 				</Link>
+				<Link href="/certificates" type="button">
+					{t('certificates')}
+				</Link>
 			</div>
 
 			<div className={styles.navLinks}>
@@ -57,6 +60,9 @@ function Navbar() {
 					</Link>
 					<Link href="/contact" type="button" onClick={toggleMobileMenu}>
 						{t('contact')}
+					</Link>
+					<Link href="/certificates" type="button" onClick={toggleMobileMenu}>
+						{t('certificates')}
 					</Link>
 					<Link
 						href="/join"

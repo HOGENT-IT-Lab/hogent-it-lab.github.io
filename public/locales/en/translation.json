@@ -2,6 +2,7 @@
 	"home": "Home",
 	"about": "About",
 	"contact": "Contact",
+	"certificates": "Certificates",
 	"join": "Join IT Lab as a helper!",
 
 	"welcome": "Welcome to the IT-Lab! Check out our upcoming events:",
@@ -22,5 +23,13 @@
 	"discord": "Discord handle",
 	"subject": "Subject",
 	"message": "Message",
-	"send": "Send"
+	"send": "Send",
+
+	"certificate": "Certificate",
+	"role": "Role",
+	"year": "Year",
+	"generateCertificate": "Generate certificate"
+
+
+
 }

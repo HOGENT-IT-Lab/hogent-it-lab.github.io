@@ -2,6 +2,7 @@
 	"home": "Home",
 	"about": "Over ons",
 	"contact": "Contact",
+	"certificates": "Certificaten",
 	"join": "Join IT Lab als helper!",
 
 	"welcome": "Welkom bij het IT-Lab! Bekijk onze kalender:",
@@ -21,5 +22,11 @@
 	"discord": "Discord handle",
 	"subject": "Onderwerp",
 	"message": "Bericht",
-	"send": "Verstuur"
+	"send": "Verstuur",
+
+	"certificate": "Certificaat",
+	"role": "Rol",
+	"year": "Jaar",
+	"generateCertificate": "Genereer certificaat"
+
 }
