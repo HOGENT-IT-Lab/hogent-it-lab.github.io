@@ -12,7 +12,7 @@ export default function certificates() {
     e.preventDefault();
     console.log('Naam:', name);
     console.log('Functie:', role);
-    console.log('Datum:', year);
+    console.log('Jaar:', year);
     setName('');
     setRole('');
     setYear('');
@@ -20,10 +20,10 @@ export default function certificates() {
 
   return (
     <div className="mx-5 flex flex-col gap-8 rounded bg-lab-blue p-8 pt-6 md:w-[60%]">
-      <div>
+      <div className="mx-auto text-center">
         <h4>IT-Lab {t('certificate')}</h4>
         <form onSubmit={handleSubmit}>
-        <div>
+        <div className='my-1'>
           <label htmlFor="name">{t('name')}: </label>
           <input
             type="text"
@@ -31,9 +31,10 @@ export default function certificates() {
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
+            className='bg-dark border'
           />
         </div>
-        <div>
+        <div className='my-1'>
           <label htmlFor="role">{t('role')}: </label>
           <input
             type="text"
@@ -41,9 +42,10 @@ export default function certificates() {
             value={role}
             onChange={(e) => setRole(e.target.value)}
             required
+            className='bg-dark border'
           />
         </div>
-        <div>
+        <div className='my-1'>
           <label htmlFor="year">{t('year')}: </label>
           <input
             type="year"
@@ -51,9 +53,10 @@ export default function certificates() {
             value={year}
             onChange={(e) => setYear(e.target.value)}
             required
+            className='bg-dark border'
           />
         </div>
-        <button type="submit">{t('generateCertificate')}</button>
+        <button className='mt-2' type="submit">{t('generateCertificate')}</button>
       </form>
       </div>  
     </div>
