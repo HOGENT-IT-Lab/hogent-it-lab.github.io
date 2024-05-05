@@ -14,6 +14,13 @@
   resolved "https://registry.npmjs.org/@auth0/auth0-spa-js/-/auth0-spa-js-2.0.4.tgz"
   integrity sha512-NgD6Fkm5Xnbned1VjhEW8irm1/Y8AWtdSLexgLXNwwBVgfnYicCVBu8w75m2t+4QljXkTcI7IXVEFhVmxMuxaA==
 
+"@babel/runtime@^7.13.8", "@babel/runtime@^7.20.7", "@babel/runtime@^7.6.3", "@babel/runtime@^7.8.7":
+  version "7.24.5"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.24.5.tgz#230946857c053a36ccc66e1dd03b17dd0c4ed02c"
+  integrity sha512-Nms86NXrsaeU9vbBJKni6gXiEXZ4CVpYVzEjDH9Sb8vmZ3UljyA1GSOJl/6LGPO8EHLuSF9H+IxNXHPX8QHJ4g==
+  dependencies:
+    regenerator-runtime "^0.14.0"
+
 "@babel/runtime@^7.20.6":
   version "7.21.0"
   resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.21.0.tgz"
@@ -206,6 +213,18 @@
     tiny-glob "^0.2.9"
     tslib "^2.4.0"
 
+"@popperjs/core@^2.11.6":
+  version "2.11.8"
+  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.8.tgz#6b79032e760a0899cd4204710beede972a3a185f"
+  integrity sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==
+
+"@restart/hooks@^0.4.7":
+  version "0.4.16"
+  resolved "https://registry.yarnpkg.com/@restart/hooks/-/hooks-0.4.16.tgz#95ae8ac1cc7e2bd4fed5e39800ff85604c6d59fb"
+  integrity sha512-f7aCv7c+nU/3mF7NWLtVVr0Ra80RqsO89hO72r+Y/nvQr5+q0UFGkocElTH6MJApvReVh6JHUFYn2cw1WdHF3w==
+  dependencies:
+    dequal "^2.0.3"
+
 "@rushstack/eslint-patch@^1.3.3":
   version "1.7.2"
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.7.2.tgz#2d4260033e199b3032a08b41348ac10de21c47e9"
@@ -283,6 +302,14 @@
     "@types/scheduler" "*"
     csstype "^3.0.2"
 
+"@types/react@>=16.9.11":
+  version "18.3.1"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.3.1.tgz#fed43985caa834a2084d002e4771e15dfcbdbe8e"
+  integrity sha512-V0kuGBX3+prX+DQ/7r2qsv1NsdfnCLnTgnRJ1pYnxykBhGMz+qj+box5lq7XsO5mtZsBqpjwwTu/7wszPfMBcw==
+  dependencies:
+    "@types/prop-types" "*"
+    csstype "^3.0.2"
+
 "@types/scheduler@*":
   version "0.16.3"
   resolved "https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.3.tgz"
@@ -292,6 +319,11 @@
   version "7.5.7"
   resolved "https://registry.yarnpkg.com/@types/semver/-/semver-7.5.7.tgz#326f5fdda70d13580777bcaa1bc6fa772a5aef0e"
   integrity sha512-/wdoPq1QqkSj9/QOeKkFquEuPzQbHTWAMPH/PaUMB+JuR31lXhlWXRZ52IpfDYVlDOUBvX09uBrPwxGT1hjNBg==
+
+"@types/warning@^3.0.0":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@types/warning/-/warning-3.0.3.tgz#d1884c8cc4a426d1ac117ca2611bf333834c6798"
+  integrity sha512-D1XC7WK8K+zZEveUPY+cf4+kgauk8N4eHr/XIHXGlGYkHLud6hK9lYfZk1ry1TNh798cZUCgb6MqGEG8DkJt6Q==
 
 "@types/yarnpkg__lockfile@^1.1.6":
   version "1.1.9"
@@ -728,6 +760,11 @@ client-only@0.0.1:
   resolved "https://registry.npmjs.org/client-only/-/client-only-0.0.1.tgz"
   integrity sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==
 
+clsx@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.2.1.tgz#0ddc4a20a549b59c93a4116bb26f5294ca17dc12"
+  integrity sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==
+
 color-convert@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz"
@@ -812,6 +849,21 @@ damerau-levenshtein@^1.0.8:
   version "1.0.8"
   resolved "https://registry.npmjs.org/damerau-levenshtein/-/damerau-levenshtein-1.0.8.tgz"
   integrity sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==
+
+date-arithmetic@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/date-arithmetic/-/date-arithmetic-4.1.0.tgz#e5d6434e9deb71f79760a37b729e4a515e730ddf"
+  integrity sha512-QWxYLR5P/6GStZcdem+V1xoto6DMadYWpMXU82ES3/RfR3Wdwr3D0+be7mgOJ+Ov0G9D5Dmb9T17sNLQYj9XOg==
+
+date-fns@^3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-3.6.0.tgz#f20ca4fe94f8b754951b24240676e8618c0206bf"
+  integrity sha512-fRHTG8g/Gif+kSh50gaGEdToemgfj74aRX3swtiouboip5JDLAyDE9F11nHMIcvOaXeOC6D7SpNhi7uFyB7Uww==
+
+dayjs@^1.11.7:
+  version "1.11.11"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.11.tgz#dfe0e9d54c5f8b68ccf8ca5f72ac603e7e5ed59e"
+  integrity sha512-okzr3f11N6WuqYtZSvm+F776mB41wRZMhKP+hc34YdW+KmtYYK9iqvHSwo2k9FEH3fhGXvOPV6yz2IcSrfRUDg==
 
 debug@^2.6.9:
   version "2.6.9"
@@ -906,6 +958,14 @@ doctrine@^3.0.0:
   integrity sha512-yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==
   dependencies:
     esutils "^2.0.2"
+
+dom-helpers@^5.2.0, dom-helpers@^5.2.1:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/dom-helpers/-/dom-helpers-5.2.1.tgz#d9400536b2bf8225ad98fe052e029451ac40e902"
+  integrity sha512-nRCa7CK3VTrM2NmGkIy4cbK7IZlgBE/PYMn55rrXefr5xXDP0LdtfPnblFDoVdcAfslJ7or6iqAUnx0CCGIWQA==
+  dependencies:
+    "@babel/runtime" "^7.8.7"
+    csstype "^3.0.2"
 
 each-parallel-async@^1.0.0:
   version "1.0.0"
@@ -1599,6 +1659,11 @@ glob@7.1.7, glob@^7.1.3:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
+globalize@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/globalize/-/globalize-0.1.1.tgz#4d04ba65a580a8b0bdcc9ed974aeb497b9c80a56"
+  integrity sha512-5e01v8eLGfuQSOvx2MsDMOWS0GFtCx1wPzQSmcHw4hkxFzrQDBO3Xwg/m8Hr/7qXMrHeOIE29qWVzyv06u1TZA==
+
 globals@^13.19.0:
   version "13.20.0"
   resolved "https://registry.npmjs.org/globals/-/globals-13.20.0.tgz"
@@ -1792,6 +1857,13 @@ internal-slot@^1.0.7:
     es-errors "^1.3.0"
     hasown "^2.0.0"
     side-channel "^1.0.4"
+
+invariant@^2.2.4:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
+  integrity sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==
+  dependencies:
+    loose-envify "^1.0.0"
 
 is-array-buffer@^3.0.1, is-array-buffer@^3.0.2:
   version "3.0.2"
@@ -2146,12 +2218,12 @@ lodash.merge@^4.6.2:
   resolved "https://registry.npmjs.org/lodash.merge/-/lodash.merge-4.6.2.tgz"
   integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
 
-lodash@4.17.21:
+lodash@4.17.21, lodash@^4.17.21:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
-loose-envify@^1.1.0, loose-envify@^1.4.0:
+loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
@@ -2172,6 +2244,16 @@ lru-cache@^6.0.0:
   integrity sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==
   dependencies:
     yallist "^4.0.0"
+
+luxon@^3.2.1:
+  version "3.4.4"
+  resolved "https://registry.yarnpkg.com/luxon/-/luxon-3.4.4.tgz#cf20dc27dc532ba41a169c43fdcc0063601577af"
+  integrity sha512-zobTr7akeGHnv7eBOXcRgMeCP6+uyYsczwmeRCauvpvaAltgNyTbLH/+VaEAPUeWBT+1GuNmz4wC/6jtQzbbVA==
+
+memoize-one@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/memoize-one/-/memoize-one-6.0.0.tgz#b2591b871ed82948aee4727dc6abceeeac8c1045"
+  integrity sha512-rkpe71W0N0c0Xz6QD0eJETuWAJGnJ9afsl1srmwPrI+yBCkge5EycXXbYRyvL29zZVUWQCY7InPRCv3GDXuZNw==
 
 merge2@^1.3.0, merge2@^1.4.1:
   version "1.4.1"
@@ -2204,6 +2286,18 @@ minimist@^1.2.0, minimist@^1.2.6:
   version "1.2.8"
   resolved "https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz"
   integrity sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==
+
+moment-timezone@^0.5.40:
+  version "0.5.45"
+  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.45.tgz#cb685acd56bac10e69d93c536366eb65aa6bcf5c"
+  integrity sha512-HIWmqA86KcmCAhnMAN0wuDOARV/525R2+lOLotuGFzn4HO+FH+/645z2wx0Dt3iDv6/p61SIvKnDstISainhLQ==
+  dependencies:
+    moment "^2.29.4"
+
+moment@^2.29.4:
+  version "2.30.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.30.1.tgz#f8c91c07b7a786e30c59926df530b4eac96974ae"
+  integrity sha512-uEmtNhbDOrWPFS+hdjFCBfy9f2YoyzRpwcl+DqpC6taX21FzsTLQVbMV/W7PzNSX6x/bhC1zA3c2UQ5NzH6how==
 
 ms@2.0.0:
   version "2.0.0"
@@ -2570,7 +2664,7 @@ prettier@2.8.7:
   resolved "https://registry.npmjs.org/prettier/-/prettier-2.8.7.tgz"
   integrity sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==
 
-prop-types@^15.8.1:
+prop-types@^15.7.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -2599,6 +2693,28 @@ quick-lru@^5.1.1:
   resolved "https://registry.npmjs.org/quick-lru/-/quick-lru-5.1.1.tgz"
   integrity sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==
 
+react-big-calendar@^1.12.1:
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/react-big-calendar/-/react-big-calendar-1.12.1.tgz#ea380d237d81cbd478011713138770b7171677b0"
+  integrity sha512-MCkuMHv/GrHbLo00eq2ixhiG9aHMD57NYnAQZgG3w2tqiHFwt29CB+hjfNTBdAQmR/F1bklgMILI8NogzbUEVA==
+  dependencies:
+    "@babel/runtime" "^7.20.7"
+    clsx "^1.2.1"
+    date-arithmetic "^4.1.0"
+    dayjs "^1.11.7"
+    dom-helpers "^5.2.1"
+    globalize "^0.1.1"
+    invariant "^2.2.4"
+    lodash "^4.17.21"
+    lodash-es "^4.17.21"
+    luxon "^3.2.1"
+    memoize-one "^6.0.0"
+    moment "^2.29.4"
+    moment-timezone "^0.5.40"
+    prop-types "^15.8.1"
+    react-overlays "^5.2.1"
+    uncontrollable "^7.2.1"
+
 react-dom@18.2.0:
   version "18.2.0"
   resolved "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
@@ -2624,6 +2740,30 @@ react-is@^16.13.1:
   version "16.13.1"
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
+react-lifecycles-compat@^3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
+  integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
+
+react-moment@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/react-moment/-/react-moment-1.1.3.tgz#829b21dfb279aa6db47ce4f1ac2555af17a1bcdc"
+  integrity sha512-8EPvlUL8u6EknPp1ISF5MQ3wx2OHJVXIP/iZc4wRh3iV3XozftZERDv9ANZeAtMlhNNQHdFoqcZHFUkBSTONfA==
+
+react-overlays@^5.2.1:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/react-overlays/-/react-overlays-5.2.1.tgz#49dc007321adb6784e1f212403f0fb37a74ab86b"
+  integrity sha512-GLLSOLWr21CqtJn8geSwQfoJufdt3mfdsnIiQswouuQ2MMPns+ihZklxvsTDKD3cR2tF8ELbi5xUsvqVhR6WvA==
+  dependencies:
+    "@babel/runtime" "^7.13.8"
+    "@popperjs/core" "^2.11.6"
+    "@restart/hooks" "^0.4.7"
+    "@types/warning" "^3.0.0"
+    dom-helpers "^5.2.0"
+    prop-types "^15.7.2"
+    uncontrollable "^7.2.1"
+    warning "^4.0.3"
 
 react@18.2.0:
   version "18.2.0"
@@ -3175,6 +3315,16 @@ unbox-primitive@^1.0.2:
     has-symbols "^1.0.3"
     which-boxed-primitive "^1.0.2"
 
+uncontrollable@^7.2.1:
+  version "7.2.1"
+  resolved "https://registry.yarnpkg.com/uncontrollable/-/uncontrollable-7.2.1.tgz#1fa70ba0c57a14d5f78905d533cf63916dc75738"
+  integrity sha512-svtcfoTADIB0nT9nltgjujTi7BzVmwjZClOmskKu/E8FW9BXzg9os8OLr4f8Dlnk0rYWJIWr4wv9eKUXiQvQwQ==
+  dependencies:
+    "@babel/runtime" "^7.6.3"
+    "@types/react" ">=16.9.11"
+    invariant "^2.2.4"
+    react-lifecycles-compat "^3.0.4"
+
 undici-types@~5.26.4:
   version "5.26.5"
   resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-5.26.5.tgz#bcd539893d00b56e964fd2657a4866b221a65617"
@@ -3214,6 +3364,13 @@ void-elements@3.1.0:
   version "3.1.0"
   resolved "https://registry.npmjs.org/void-elements/-/void-elements-3.1.0.tgz"
   integrity sha512-Dhxzh5HZuiHQhbvTW9AMetFfBHDMYpo23Uo9btPXgdYP+3T5S+p+jgNy7spra+veYhBP2dCSgxR/i2Y02h5/6w==
+
+warning@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/warning/-/warning-4.0.3.tgz#16e9e077eb8a86d6af7d64aa1e05fd85b4678ca3"
+  integrity sha512-rpJyN222KWIvHJ/F53XSZv0Zl/accqHR8et1kpaMTD/fLCRxtV8iX8czMzY7sVZupTI3zcUTg8eycS2kNF9l6w==
+  dependencies:
+    loose-envify "^1.0.0"
 
 watchpack@2.4.0:
   version "2.4.0"
